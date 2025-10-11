@@ -1,0 +1,29 @@
+/* Buttons grid layout */
+.ButtonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Button container layout */
+.button {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #111;
+  color: #fff;
+  box-shadow: 0 0 15px #fff, inset 0 0 5px rgba(255,255,255,0.05);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #fff, inset 0 0 10px rgba(255,255,255,0.1);
+}

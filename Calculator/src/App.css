@@ -1,10 +1,9 @@
-
 /* Global setup */
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #0a0a0a; /* dark cyberpunk background */
+  background-color: #000; /* black background */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,8 +13,8 @@ body {
 
 /* Title */
 h1 {
-  color: #ff33cc; /* neon pink */
-  text-shadow: 0 0 10px #ff33cc, 0 0 20px #ff33cc, 0 0 30px #ff66ff;
+  color: #fff; /* white */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ccc;
   margin-bottom: 30px;
   font-size: 3rem;
   letter-spacing: 2px;
@@ -25,53 +24,14 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #1a1a1a;
+  background-color: #111; /* dark panels */
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0 0 40px rgba(255, 51, 204, 0.6), inset 0 0 20px rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3), inset 0 0 20px rgba(255,255,255,0.05);
 }
 
-/* Display */
-input[type="text"] {
-  width: 350px;
-  height: 60px;
-  background-color: #0a0a0a;
-  color: #ff33cc;
-  font-size: 2rem;
-  text-align: right;
-  border: 2px solid #ff33cc;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 10px #ff33cc, inset 0 0 5px rgba(255,255,255,0.1);
-  padding: 10px;
-}
 
-/* Button container layout */
-button {
-  width: 70px;
-  height: 70px;
-  margin: 5px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  border: 2px solid #ff33cc;
-  border-radius: 10px;
-  background-color: #1a1a1a;
-  color: #ff33cc;
-  box-shadow: 0 0 15px #ff33cc, inset 0 0 5px rgba(255,255,255,0.1);
-  transition: all 0.2s ease;
-  cursor: pointer;
-}
 
-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 25px #ff33cc, inset 0 0 10px rgba(255,255,255,0.2);
-}
 
-/* Buttons grid layout */
-.ButtonContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  justify-items: center;
-  align-items: center;
-}
+
+
